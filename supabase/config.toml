@@ -1,0 +1,19 @@
+project_id = "hzkcrbhgkjzkofhixxnm"
+
+[functions.ai-player-response]
+verify_jwt = false
+
+[functions.ai-player-topic-selection]
+verify_jwt = false
+
+[functions.ai-player-guess]
+verify_jwt = false
+
+[functions.ai-topic-suggestions]
+verify_jwt = true
+
+[functions.create-stripe-checkout]
+verify_jwt = false
+
+[functions.verify-stripe-payment]
+verify_jwt = false

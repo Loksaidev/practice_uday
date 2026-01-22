@@ -1,0 +1,568 @@
+{
+  "org": {
+    "name": "Gestión de Patrimonio Nest Egg",
+    "description": "Experimenta un juego personalizado adaptado para nuestra comunidad financiera",
+    "popup": {
+      "description": "Bienvenido a Gestión de Patrimonio Nest Egg. ¡Descubre cuánto sabes realmente sobre finanzas y planificación patrimonial!"
+    },
+    "welcome": "Bienvenido a nuestra organización",
+    "howItWorks": "Cómo Funciona",
+    "howItWorksDesc": "Un juego divertido para descubrir cuánto sabes realmente sobre los demás",
+    "players": "2-6 Jugadores",
+    "playersDesc": "Perfecto para grupos pequeños y equipos",
+    "funTopics": "Temas Divertidos",
+    "funTopicsDesc": "Elige entre varias categorías atractivas",
+    "scorePoints": "Puntuación",
+    "scorePointsDesc": "Gana puntos adivinando correctamente",
+    "easySetup": "Configuración Fácil",
+    "easySetupDesc": "Comienza a jugar en segundos",
+    "readyToPlay": "¿Listo para Jugar?",
+    "readyToPlayDesc": "Únete a tus amigos y descubre cuánto sabes realmente sobre los demás",
+    "getStarted": "Comenzar",
+    "playNow": "Jugar Ahora",
+    "loading": "Cargando...",
+    "store": "Tienda",
+    "officialMerchandise": "Mercancía oficial y productos de juegos",
+    "noProductsAvailable": "No hay productos disponibles aún",
+    "featured": "Destacado",
+    "addedToCart": "Agregado al carrito",
+    "hasBeenAddedToCart": "se ha agregado a tu carrito.",
+    "inStock": "en stock",
+    "outOfStock": "Agotado",
+    "addToCart": "Agregar al Carrito",
+    "shoppingCart": "Carrito de Compras",
+    "cartEmpty": "Tu carrito está vacío",
+    "addItemsToStart": "Agrega algunos artículos de la tienda para comenzar",
+    "continueShopping": "Continuar Comprando",
+    "orderSummary": "Resumen del Pedido",
+    "subtotal": "Subtotal",
+    "shipping": "Envío",
+    "total": "Total",
+    "checkoutComingSoon": "Pago Próximamente",
+    "welcomeBack": "Bienvenido de nuevo",
+    "createAccount": "Crear Cuenta",
+    "signInToAccount": "Inicia sesión en tu cuenta",
+    "signUpToGetStarted": "Regístrate para comenzar",
+    "fullName": "Nombre Completo",
+    "enterFullName": "Ingresa tu nombre completo",
+    "email": "Correo Electrónico",
+    "enterEmail": "Ingresa tu correo electrónico",
+    "password": "Contraseña",
+    "enterPassword": "Ingresa tu contraseña",
+    "pleaseWait": "Por favor espera...",
+    "signIn": "Iniciar Sesión",
+    "signUp": "Registrarse",
+    "dontHaveAccount": "¿No tienes una cuenta? Regístrate",
+    "alreadyHaveAccount": "¿Ya tienes una cuenta? Inicia sesión",
+    "welcomeBackToast": "¡Bienvenido de nuevo!",
+    "loginSuccess": "Has iniciado sesión exitosamente.",
+    "accountCreated": "¡Cuenta creada!",
+    "checkEmail": "Por favor verifica tu correo electrónico.",
+    "error": "Error",
+    "categories": {
+      "Wealth Management": "Gestión de Patrimonio"
+    },
+    "gameRoom": {
+      "leaveGame": "Salir Juego",
+      "exitGame": "Salir del Juego",
+      "loadingPlayerData": "Cargando datos del jugador...",
+      "errorKickingPlayer": "Error al expulsar al jugador",
+      "confirmLeaveTitle": "¿Confirmar salida?",
+      "confirmLeaveDescription": "¿Estás seguro de que quieres salir del juego? Perderás tu progreso.",
+      "cancel": "Cancelar",
+      "leave": "Salir"
+    },
+    "common": {
+      "cancel": "Cancelar",
+      "exitGame": "Salir del Juego"
+    },
+    "scoringPhase": {
+      "nextVip": "Siguiente VIP",
+      "roundResults": "Resultados de la Ronda",
+      "currentStandings": "Clasificación Actual",
+      "pointsEarned": "Puntos ganados esta ronda",
+      "clickToViewGuess": "Haz clic en un jugador para ver su suposición",
+      "continueGame": "Continuar",
+      "endGame": "Terminar Juego",
+      "exitGame": "Salir Juego",
+      "waitingForHost": "Esperando al anfitrión...",
+      "leaveGameTitle": "Salir del Juego",
+      "leaveGameMessage": "¿Estás seguro de que quieres salir del juego? Otros jugadores serán notificados y el juego continuará con los jugadores restantes.",
+      "leaveGame": "Salir del Juego",
+      "actualOrder": "Orden Actual",
+      "nextVipSelected": "Siguiente VIP seleccionado",
+      "isNowVip": "{{name}} ahora es VIP",
+      "guessedOrder": "orden adivinado:",
+      "newRoundStarting": "Nueva ronda comenzando",
+      "roundBegins": "La ronda {{round}} comienza ahora"
+    },
+    "guessingPhase": {
+      "youAreVip": "Tú eres el VIP",
+      "submitGuess": "Enviar Suposición",
+      "submitting": "Enviando",
+      "currentVip": "VIP Actual:",
+      "topicLabel": "Tema:",
+      "dragToMatch": "Arrastra los elementos para que coincidan con lo que crees que es el orden de preferencia de {{name}} (Arriba = Más Gustado)",
+      "cannotSubmitGuess": "No puedes enviar tu suposición",
+      "vipCannotGuess": "El VIP no puede adivinar",
+      "errorSubmittingGuess": "Error al enviar la suposición",
+      "guessSubmitted": "Suposición enviada",
+      "waitingForOthersSubmit": "Esperando a que otros envíen sus suposiciones",
+      "pleaseGuess": "Por favor adivina",
+      "earnedPoints": "Puntos ganados: {{score}}",
+      "waitingForOthersGuess": "Esperando a que otros adivinen tus preferencias...",
+      "guessedCount": "{{ready}} de {{total}} han adivinado",
+      "timeRunningOut": "¡Se está acabando el tiempo! Por favor envía tu suposición.",
+      "removedDueToInactivity": "Fuiste removido del juego debido a inactividad."
+    }
+  },
+  "services": {
+    "service-1": {
+      "title": "Planificación Financiera Personalizada",
+      "description": "Desarrollamos estrategias financieras personalizadas para ayudarte a alcanzar tus metas económicas a largo plazo."
+    },
+    "service-2": {
+      "title": "Gestión de Inversiones",
+      "description": "Gestionamos tu portafolio de inversiones con enfoque en el crecimiento sostenible y la minimización de riesgos."
+    },
+    "service-3": {
+      "title": "Planificación Patrimonial",
+      "description": "Te ayudamos a preservar y transferir tu patrimonio a las generaciones futuras de manera eficiente."
+    }
+  },
+  "faqs": {
+    "faq-1": {
+      "question": "¿Qué es la planificación financiera?",
+      "answer": "La planificación financiera es el proceso de definir metas financieras y crear un plan para alcanzarlas."
+    },
+    "faq-2": {
+      "question": "¿Cómo puedo empezar a invertir?",
+      "answer": "Comienza evaluando tu tolerancia al riesgo, estableciendo metas claras y diversificando tu portafolio."
+    },
+    "faq-3": {
+      "question": "¿Qué es la diversificación?",
+      "answer": "La diversificación es la estrategia de repartir tus inversiones entre diferentes activos para reducir riesgos."
+    }
+  },
+  "topics": {
+    "95e0ca6f-f70e-4fc3-befc-bdf0cae64ee4": {
+      "name": "Motivaciones para la gestión de patrimonios",
+      "items": {
+        "37dbd020-3356-4694-b35b-b272ca27b620": "Filantropía",
+        "45f16bd3-38cc-40c9-8279-bc1accf76947": "Crecimiento",
+        "50b00e91-078e-426f-9b8b-d48545232faf": "Independencia",
+        "50b05c3a-698c-4ffe-8d10-995611206caa": "Tranquilidad",
+        "676d3581-35a7-4bd5-820b-40c37bf0798d": "Seguridad familiar",
+        "82ae4d11-b3d6-49b0-86a6-1343424b60a4": "Legado",
+        "a7e4ec31-04be-4d22-a999-e0c1949494e1": "Libertad"
+      }
+    },
+    "d7eab584-0822-4753-9a45-b5199ccff10a": {
+      "name": "En qué gasto mi dinero",
+      "items": {
+        "02d555aa-4aeb-45db-9cb9-c4e8a126df4c": "Tecnología y gadgets",
+        "19e6d98b-a0e4-4b2f-9ba0-05033fcfcca4": "Mejoras para el hogar",
+        "1b902d4f-e659-40a3-9cb1-23e0d770080a": "Viajes y experiencias",
+        "68d41c4a-603c-43e2-aa0d-5ea5401ddd3c": "Moda y compras",
+        "6ac82bb1-420a-4f78-8248-968b4499ee7e": "Fitness y bienestar",
+        "be2f82da-91dc-4c37-a52d-4b943208be41": "Comida y restaurantes"
+      }
+    },
+    "49917902-48cd-4180-b9fb-9861b546208d": {
+      "name": "Actividad ideal para un día lluvioso",
+      "items": {
+        "380b2a3c-eb9d-40bf-b015-741ff26ec0cf": "Limpiar la casa",
+        "3bb3326b-ad2d-401c-bffa-25a98888012b": "Escribir un diario o escribir",
+        "7119fa22-1cb2-4190-a61f-0f3ab8a09e96": "Ver películas",
+        "8759d235-c863-4fa8-8a47-27a104e1a604": "Leer un libro",
+        "ce2911d5-273e-4488-9f26-ace90bd0fe0a": "Rompecabezas o juegos de mesa",
+        "d9b380d5-2044-45a4-ac3c-c1256afe3370": "Compras en línea",
+        "dbc39dc7-ddb9-4e98-bf4f-38ab8771840c": "Cocinar algo nuevo"
+      }
+    },
+    "e3f026f0-4358-4f6e-9383-f5b8cc6ae3b8": {
+      "name": "Estilo de vacaciones preferido",
+      "items": {
+        "1b527ba1-f981-4418-b7e9-f2b0c5bf65a4": "Viaje por carretera",
+        "27ea2494-5326-490d-8764-3aaa4513feba": "Viaje en crucero",
+        "433738c8-351f-442f-ab87-531361cc6845": "Descansar en la playa",
+        "438312cf-6de3-469e-975e-cdac0f3cbdc6": "Tours culturales",
+        "b5b220e9-e136-457b-bdd2-5306fbf7c5da": "Relajación de lujo",
+        "ecb9ab61-2ceb-43c4-802f-5f7ef7026b0d": "Acampar al aire libre",
+        "f8a807f1-e295-4674-a628-99c513da5f11": "Viajes de aventura"
+      }
+    },
+    "0e8b67c0-0142-42db-90b0-760b47c3a2c1": {
+      "name": "Reacción ante una ganancia inesperada",
+      "items": {
+        "0b1a3dc2-9370-49c9-8e44-365a0eb1006b": "Pagar deudas",
+        "197d44a1-d0a1-44ee-b72e-4bbf00a98c12": "Darse un capricho y ahorrar el resto",
+        "7d36404a-e736-4e9d-b927-ba574c9e4cb9": "Buscar asesoramiento profesional primero",
+        "b142c2d8-0c39-4d11-9722-98847ac3bafc": "Crear un fondo de emergencia",
+        "c271cb2f-7e39-471d-ad2b-ab1f832a7eb3": "Invertir la mayor parte",
+        "cea52d03-2c5f-4af0-be32-44789790ff1d": "Ahorrarlo todo",
+        "ebf74ef5-2e5f-41fc-b9e9-3e39ccd711bf": "Donar una parte"
+      }
+    },
+    "192a7ae1-627b-4d98-9594-05bd9c0d552a": {
+      "name": "Comodidad con las compras grandes",
+      "items": {
+        "25875c2a-6061-4b40-9234-9a453a33ff92": "Compras impulsivas",
+        "4616a443-bb37-422d-b8aa-9b0fe4781f8c": "Preguntar a otros primero",
+        "4b494dad-d164-432a-8202-c98b86209370": "Investigación exhaustiva",
+        "6a754f25-30fd-4da0-8323-c2e9f7508268": "Muy cauteloso",
+        "7927fb8-cc2f-4743-9a79-77a352533003": "Confiar en la intuición",
+        "829f35ea-163b-4875-8d87-6bc61ef47e89": "Comparar durante meses",
+        "db9228f0-cf9f-439e-8e3d-fff73c4c7064": "Comprar solo por necesidad"
+      }
+    },
+    "37b4e34d-8ebf-4a1e-a062-290fa3435ff3": {
+      "name": "Estilo de planificación futura",
+      "items": {
+        "55161196-35fe-49e4-acc6-0260d9035dd4": "Soñador a largo plazo",
+        "729ddedb-3a7f-4440-8c49-dd37d74f9c99": "Creador de listas de verificación",
+        "79696b97-5d4d-4472-a92e-ae0afa9a487d": "Planificador detallado a largo plazo",
+        "9082e497-43f9-4a2d-94b1-5fcb6f17c86c": "Planificar solo cuando sea necesario",
+        "a8d42ad8-bdb6-4825-893f-3b1c554e97da": "Decisiones espontáneas",
+        "b0c34b12-a0ac-43d5-aa15-c3e82e276b87": "Mentalidad de dejarse llevar",
+        "dc051e3d-93ef-46d1-b8d6-870875428cbd": "Planificar anualmente"
+      }
+    },
+    "04b78853-852a-4247-81c1-a28dbfebf0a3": {
+      "name": "Enfoque para aprender nuevas habilidades",
+      "items": {
+        "22e509e7-e08a-44d9-8c44-4ac037a6a791": "Experimentar libremente",
+        "4a45021f-2d86-4f05-84d9-422206e71cd5": "Tomar una clase",
+        "a2657a72-ac71-4521-8904-0d5e1a505548": "Ver tutoriales en línea",
+        "a2afbced-2822-4283-b8bc-686d2a3bc228": "Aprender haciendo con otros",
+        "b0a4bbd1-2b2f-4a92-a6a0-6e453c5e0bd3": "Preguntar a un amigo",
+        "c384c22a-702c-41bf-be33-67ba04498dc9": "Leer instrucciones",
+        "c9ac301c-ade3-4c46-893a-ed3f71a4c66c": "Buscar ayuda de expertos"
+      }
+    },
+    "ffdca250-ec3f-49ae-9c7d-d2fb0043a685": {
+      "name": "Manejo de gastos inesperados",
+      "items": {
+        "01a5e026-4375-4326-8362-311a55dca931": "Ajustar el presupuesto mensual",
+        "1be54907-abca-4fbe-895a-1f6879f19736": "Sentirse estresado",
+        "2a21730d-ba1c-459b-b109-568a3960ce14": "Usar crédito",
+        "436cbe25-d914-4ba2-91e5-7f6720834822": "Usar ahorros",
+        "c93636af-0e9a-4b15-b5ab-70624acee55f": "Negociar el costo",
+        "cfadcaaa-ee6a-4de6-93a7-4b22d0ca4189": "Retrasar otros gastos",
+        "f12c6188-561d-44c0-a6cc-758771a23a78": "Pedir ayuda o apoyo"
+      }
+    },
+    "967def64-75c6-4efe-a138-43778e98bc3e": {
+      "name": "Estilo de trabajo preferido",
+      "items": {
+        "14a2fc88-3c11-4506-8ef6-e5200884e3db": "Horario estructurado",
+        "31272c53-8a82-4b35-b6f5-38b26cd43a21": "Equipos colaborativos",
+        "77630778-b2e1-4f8d-8df9-0c82491b4f34": "Tareas independientes",
+        "a3362ecd-0990-492b-8fd8-ce4707365c6c": "Variedad y cambio constante",
+        "bb6a212b-95eb-46aa-b31e-746b25f8dc1f": "Trabajo impulsado por una misión",
+        "d184b0ec-7a30-4b43-9e19-3ce35b6b0e89": "Horas flexibles",
+        "dc3927be-bddf-41d9-9398-9abf5f749ce5": "Libertad creativa"
+      }
+    },
+    "307f4fe9-81bf-475f-88ac-9159266cd2f7": {
+      "name": "Recompensa por una semana difícil",
+      "items": {
+        "06bfb766-4cb9-43f9-bd44-26b0c0e8c0ad": "Viaje de un día",
+        "33459f22-ae05-4c16-b416-280561d7dc8a": "Sesión de ejercicio",
+        "449b35ac-07ab-4994-9df8-ca13a0cc7cbb": "Comprar algo pequeño",
+        "8e4a70f2-9645-4fdf-a3b6-8fb2cebfd401": "No hacer absolutamente nada",
+        "cd783ae3-280a-4dc9-9c25-9fb0588133ac": "Maratón de series",
+        "dcc82423-e226-46ac-a6e7-47480ebfe6c8": "Spa o masaje",
+        "fe65230c-5d0c-4127-84e1-a4bfcb3a7079": "Una buena cena fuera"
+      }
+    },
+    "0c7b9b86-4107-4be0-becc-b6136dca2726": {
+      "name": "Influencias en la toma de decisiones sobre dinero",
+      "items": {
+        "0420d12f-e3d0-4650-a601-2a055f44f761": "Investigación personal",
+        "0e0faec5-fc8e-4b99-a6e9-2d82a6ec29a2": "Experiencia personal pasada",
+        "5da21170-434d-478b-96e2-3ebe789d347c": "Seguir el instinto",
+        "7b4fa028-77de-40ec-b6d2-030545f20383": "Preguntar a la familia",
+        "aa62709d-0457-44c6-97a0-ad95fd584edb": "No seguir ningún consejo",
+        "ce23acac-9c94-4799-be10-2daef815aafd": "Reseñas y foros en línea",
+        "efaefc54-02b2-4bfc-a466-3c252ebd65bd": "Preguntar al asesor financiero"
+      }
+    },
+    "c8108b2a-5d9f-43e4-a38d-4018c98d5cec": {
+      "name": "Mejora preferida para el hogar",
+      "items": {
+        "18d868ac-1a28-469b-9a71-37df0dd9e739": "Configuración de la oficina en casa",
+        "2139cc96-c719-42c8-b9e3-337d487867ff": "Actualización de muebles",
+        "2967f482-24a4-43f9-b885-c52b58c721d2": "Optimización del almacenamiento",
+        "398441d1-b682-4cf6-8bb2-050029a981c6": "Actualización de la iluminación",
+        "4857a150-f18c-4538-9ecc-af12217ab486": "Mejora de la vida al aire libre",
+        "aeee01f8-f253-41a8-aede-109c72569609": "Tecnología para el hogar inteligente",
+        "fa998985-b889-4d96-84f7-dfab981caf50": "Pintura nueva"
+      }
+    },
+    "334fd36c-0ef3-454f-bd71-6570ae90c658": {
+      "name": "Causa benéfica preferida",
+      "items": {
+        "05e9f57d-d3e9-4229-a58a-68853043c33b": "Bienestar animal",
+        "19c41428-e05f-4d0e-bea5-69cedc13c60d": "Conservación del medio ambiente",
+        "37a2908e-63ed-4df9-9a1c-01d294309411": "Apoyo a las artes y la cultura",
+        "534ea8b1-9143-405e-ac9a-b5aeb5270ade": "Alivio de la pobreza y el hambre",
+        "5862c568-b791-4103-a35f-c857db47ae53": "Investigación médica y de salud",
+        "83f76786-98e5-4008-a40c-9c7e432422ba": "Educación y alfabetización",
+        "e465dbf1-38ad-49c2-b175-d46b3cb26b4d": "Concienciación sobre la salud mental"
+      }
+    },
+    "59a70ebc-d45a-4883-842d-0ddd3a2ffe2e": {
+      "name": "¿Cómo te sientes acerca de los riesgos de inversión?",
+      "items": {
+        "4c4a438b-5084-443b-bd83-178c061c5c46": "A lo grande",
+        "517e65bc-552e-4a17-889f-6dc3b0d7bfa3": "Confiar en el asesor",
+        "666498d1-d63d-4cdb-8cd8-f560d698b392": "Evitar a menos que se entienda bien",
+        "90eb8358-0fb2-4ec5-8a9e-717cd11538f3": "Riesgo calculado",
+        "a0a9885e-82f9-4e81-b746-ce6d6091f66b": "Evitarlos",
+        "d2bcb59d-485d-4d64-9897-996bc250f164": "Ajustar el riesgo con el tiempo",
+        "ed033500-ab41-4c57-9a06-f985988fa44a": "Depende del objetivo"
+      }
+    },
+    "42698b95-1540-4c2f-849a-82b59bfebb82": {
+      "name": "Reacción a las noticias del mercado",
+      "items": {
+        "2895c8b2-92e7-455f-b6b9-c7d6f0d0fbf7": "Llamar al asesor",
+        "2ddc99a1-3807-4e16-8dd7-9de6e97f2627": "Comprar más",
+        "35f41393-07af-4c79-acc1-aa9ac12761d4": "Ignorar el ruido a corto plazo",
+        "57b237d7-b747-47a8-b3f1-37780fef22f1": "Revisar la cartera",
+        "90be337e-4274-4456-aff6-c458dae41773": "Investigar más",
+        "ac0c6116-66cc-4753-8e35-cd41e83422fb": "Esperar y ver",
+        "c901acdd-8a95-45d2-99b7-775241117b3f": "Revisar el plan a largo plazo"
+      }
+    },
+    "b3c616f3-1bdb-468d-94de-edc60f31c43a": {
+      "name": "Enfoque de las decisiones sanitarias",
+      "items": {
+        "0603e04d-bec1-462b-b0cc-5ba26a1eefa5": "Investigar de forma independiente",
+        "188034da-5b15-43f3-8bc8-ccf19d513cef": "Segundas opiniones",
+        "2e7e4933-adf8-49a7-9bbc-50eca87a3362": "Cambios en el estilo de vida preventivos",
+        "370c2d31-4683-4f56-b3b6-693ee6a12699": "Preguntar al médico",
+        "7eb76aa7-3111-4add-9fc0-49f3a46aef9d": "No hacer nada",
+        "d562449e-feaf-4b8b-8e8b-06f1d21bc4a1": "Chequeos regulares",
+        "f424af7a-4888-4b93-a8ab-72e53e7a24c1": "Telesalud"
+      }
+    },
+    "5f8215c1-8883-4c1d-b345-b1d1a45afa5c": {
+      "name": "Opción de transporte preferida",
+      "items": {
+        "270b6773-ea5d-4efb-8c2c-e7a2833dbac1": "Viajes compartidos",
+        "4dde6d9a-cee4-42f1-ac05-c8895231e20d": "Transporte público",
+        "81d3c020-a1fd-49df-a2cd-0b1b63cd1acc": "Vehículo híbrido",
+        "a04074af-5417-4380-82ff-95b8fc92483b": "Vehículo eléctrico",
+        "da26a0f3-5a04-4de0-aed3-6980b71fe7a2": "Poseer un coche de lujo",
+        "e8040cbb-0199-4018-bc6a-c38d084d794b": "Caminar",
+        "fdde86db-b9f7-46a3-bbcc-49bb81fe2628": "Ciclismo"
+      }
+    },
+    "122cd8f6-fe0d-420e-9fdf-7caef13d2cf6": {
+      "name": "Ciclo de actualización de gadgets preferido",
+      "items": {
+        "6a4d1286-2b41-4770-b312-b82bb404b180": "Cada pocos años",
+        "6b55ae47-adda-4882-bf17-43525347ffb3": "Solo cuando la productividad mejore",
+        "6da010f8-9370-4767-83a6-c93e4f671b66": "Todos los años",
+        "a446c161-948b-4e55-9087-31ee21b27406": "Casi nunca",
+        "cb8b7524-55c8-4c5c-ae94-4e71a5205bae": "Cuando está en oferta",
+        "de82487c-01d8-4578-a94b-6038303080da": "Cuando una nueva tecnología me emociona",
+        "ff72de7a-d125-4c10-982e-462b1f097180": "Solo cuando se rompe"
+      }
+    },
+    "d2511799-a1bc-4caa-9e14-38d2f941fe5d": {
+      "name": "Manejo de contratiempos menores",
+      "items": {
+        "57e6a55f-66b7-4895-a40f-c5d4aa614a46": "Tomárselo con humor",
+        "5aba5e9b-0661-46ab-a084-7d8a3d4303c4": "Pensarlo demasiado",
+        "69a7cfbe-11fc-46ea-862b-a6d641c78604": "Reflexionar y adaptar",
+        "77ab551f-0673-437e-a9d3-5a1c6dfedf05": "Mantener la calma",
+        "ad74750d-afa2-4b3f-b0bf-961a09a54027": "Pedir ayuda",
+        "cb53b368-43a9-446b-bf2c-b4dc31f35a87": "Tomarse un breve descanso",
+        "e0b0c966-5da8-4a0a-8910-797bf067e77f": "Arreglar de inmediato"
+      }
+    },
+    "25f878c4-7d60-4035-a4b4-f7563d0d55fb": {
+      "name": "Estilo de ahorro preferido",
+      "items": {
+        "4236086c-bfa9-4004-a563-bdd3f385f5ff": "Cubos de ahorro basados en objetivos",
+        "67365a01-ddc5-4a45-94fc-bac45d69e017": "Jarras de efectivo",
+        "b6f7fd21-c8e0-428d-9a67-a5de2c350bd7": "Aplicaciones de presupuesto",
+        "be9adf63-e05b-4f02-a985-e3a4c42d6394": "Rara vez ahorrar",
+        "c0ba0374-5833-4fe8-b421-f76f0a3e2219": "Ahorrar ganancias inesperadas",
+        "d55e2afe-3a67-4a4a-ba2a-3a812269d426": "Depósitos automáticos",
+        "df2b4e16-f815-47cd-92ee-11c5317011ca": "Planes patrocinados por el empleador"
+      }
+    },
+    "93ca5aeb-ccc7-4f5b-95b0-350cea50e80b": {
+      "name": "Estilo de celebración preferido",
+      "items": {
+        "26c34e1c-9689-45c8-ae30-01c7b45c160c": "Compras",
+        "33657ab6-c7a1-4314-b8d1-4ac34b23f64e": "Reunión discreta",
+        "568230b6-73b4-4431-bad9-fb2b723bdd31": "Gran evento",
+        "8a4487af-a948-42c0-9d3c-9a94a13706ba": "Noche tranquila en casa",
+        "8a82897c-4c79-4239-8247-8f7090556e18": "Salida basada en la experiencia",
+        "8f3c93fa-9f09-4085-b3b3-4e81560fe6bf": "Escapada de fin de semana",
+        "e8ded551-ebc0-43e6-a41b-63bf9d4ac9ae": "Cena de fiesta"
+      }
+    },
+    "5914702c-e325-4edb-898b-44ce8a93849c": {
+      "name": "Proyecto ideal de fin de semana",
+      "items": {
+        "0bc1a95a-a8ae-4ce4-b79a-a635176a536e": "Proyecto de hobby creativo",
+        "4d61a4e8-76cf-4558-acfc-31839e2ec680": "Mantenimiento del coche",
+        "6a9b2997-5f80-46e5-a6e2-28d8c18580b1": "Organizar el armario",
+        "7758e1da-4771-42df-b54c-6898428caf9c": "Descansar",
+        "cb77bf1b-1a95-47c3-ac12-5e2faff49cfd": "Jardinería",
+        "e9916ef5-8b0a-4ed4-a123-dfc196b7c77c": "Aprender una habilidad",
+        "f9c05700-e0af-48fe-ab33-742aaad21a1a": "Ordenar y donar"
+      }
+    },
+    "312e7362-6ec7-4bb2-a409-58121dd19d4d": {
+      "name": "Rutina matutina típica",
+      "items": {
+        "02ad614b-46c0-4ddf-bee3-cfa72d170537": "Estiramiento ligero",
+        "241cd8ec-308c-4dfb-b664-adf5a0ce99c9": "Meditación",
+        "29ab25e7-c10b-4637-88e3-e482e8c3a3d8": "Sin rutina",
+        "49291097-7de7-40e5-87e2-24984aced461": "Entrenamiento temprano",
+        "75c975a2-bdae-40cc-8a68-f42a4c5f677f": "Planificar el día siguiente",
+        "868035b9-ebc3-411e-aa92-fe5205a8eb38": "Café primero",
+        "cefeda80-03d8-4d68-a0ff-7554c6aa08cb": "Revisar el teléfono"
+      }
+    },
+    "cb45629d-a19e-4629-86ce-a655b75e1740": {
+      "name": "Fiesta favorita",
+      "items": {
+        "246567ae-6f1b-486d-a754-6dd5a7deb1a3": "Nochevieja",
+        "33d34a02-d502-4995-b102-ad231bbfb39e": "Navidad",
+        "46eae374-4c41-4b68-bed6-589d94e59937": "Pascua",
+        "4e7a7891-3df5-40e3-bd3f-f73d2f955336": "4 de julio",
+        "697162fe-778e-433e-9cb9-cbc1b7151e9e": "Halloween",
+        "839ce60c-0449-4c10-b4c5-11dddd88ecc7": "Día del Trabajo",
+        "fa546d4a-7049-4c27-a80c-bd403396dc61": "Acción de Gracias"
+      }
+    },
+    "409b8efc-2311-4b71-b92e-ebc0c9c670d3": {
+      "name": "Elección de almuerzo ideal",
+      "items": {
+        "44244ba4-9bfb-45bd-948c-f628ffa0839c": "Restos de la preparación de la comida",
+        "46c85a6e-b62d-4dab-aa16-4c0e8a23f5af": "Comida de restaurante",
+        "55318fb3-e512-4105-8efa-74e15f491de8": "Batido o snack ligero",
+        "80c05aa3-8191-47a7-88bb-f539d579f346": "Comida rápida",
+        "d8c2cc79-8914-49d2-ae9d-6e67f416cfae": "Ensalada",
+        "e2b1d63a-d86a-4220-8717-f250e53d04d3": "Almuerzo casero",
+        "f0b19531-3513-4d13-9e06-2b2205958828": "Saltarse el almuerzo"
+      }
+    },
+    "fcc295b8-13d2-4542-b614-67691d7b6268": {
+      "name": "Juego favorito de la infancia",
+      "items": {
+        "0a81fb2f-3b5b-47be-b656-1e06f6f28ead": "Ajedrez",
+        "1b39e795-7c50-455b-a53c-2c0fc2953562": "UNO",
+        "1e72ece8-24e7-4ec4-b1e1-f1f9fdd5b794": "Deportes",
+        "5808c2e5-a7ec-4c6f-9819-481c38480493": "Pilla-pilla",
+        "5af56a47-d0f4-4614-8c87-2d712702718f": "Charadas tontas",
+        "b86588d4-836c-4489-ad40-a8f24b68c6c6": "Escondite",
+        "f8f23a27-9b70-435c-8fdd-1eb41bb75b6a": "Monopoly"
+      }
+    },
+    "535c2c3f-f0dc-4da6-a1b6-747c468bf245": {
+      "name": "Tipo de mascota preferido",
+      "items": {
+        "17871c20-6bed-4da8-8fc6-b754d2dab082": "Reptiles",
+        "5016d3ca-1c10-4fab-9b17-8754302fddc0": "Animales de granja",
+        "53efc3ff-adb7-4389-b596-e783b79f96ab": "Pájaros",
+        "63ab87ce-0c38-45ad-8390-da21ae14621f": "Peces",
+        "c938162c-eb43-432a-9051-c6343c467112": "Gatos",
+        "da0fbaa9-6fe1-4fae-8d31-6534b586a1e9": "Perro",
+        "ee6566cf-9907-4ea4-b067-f10bf17efdd4": "Sin mascotas"
+      }
+    },
+    "90b0d694-823d-49ee-ab12-1e875d342487": {
+      "name": "Enfoque para los gastos de vacaciones",
+      "items": {
+        "124dd335-4002-4cb0-97a9-a87c6c6b0bcc": "Compras de última hora",
+        "2c69dcad-391c-43ca-97bf-4b1c18305d19": "Dividir los costos a lo largo del tiempo",
+        "4178cc5c-61bf-47bb-9152-bb346cede752": "Regalos hechos a mano",
+        "b67407c0-e23b-46d7-8612-f7650f062d42": "Establecer un presupuesto firme",
+        "c3ff8a9e-bb5f-4752-b953-eb024a68bb49": "Experiencias sobre regalos",
+        "c6241ed5-b2ac-448a-951a-fe11eaa6014b": "Comprar durante los descuentos",
+        "c7cb9098-9994-403d-9815-23fac3d1fba7": "Gastar de más con gusto"
+      }
+    },
+    "056ffc6d-8a59-4aef-b22b-e5e5aae69462": {
+      "name": "Día de jubilación ideal",
+      "items": {
+        "0ac7b112-b285-47a5-9cc4-a9154fef84cb": "Lectura",
+        "0f4c00aa-9b69-47d9-a7fe-243ef867f062": "Clubes sociales",
+        "1a0ce37c-ce74-4cba-b098-14704bd6560a": "Tiempo en familia",
+        "3995b78e-e099-4857-aec8-7ddb141a0df0": "Mantenerse activo al aire libre",
+        "58d4857c-1fe2-4196-9cf4-9d1a1f7128c5": "Voluntariado",
+        "c212eed2-46a7-4f01-a660-ec673a375c9b": "Viajar",
+        "f4ed3bbf-8f7b-4277-8ae4-26e3f4fb272f": "Aprender algo nuevo"
+      }
+    },
+    "23c66113-8373-4e89-877d-9fadff7bea30": {
+      "name": "Respuesta a los retrasos en los viajes",
+      "items": {
+        "36b035a9-9b8f-47d2-ad14-dcf8d7a0eb6e": "Explorar el aeropuerto",
+        "44fdd575-acbb-4b42-a509-728bd7e56ad8": "Usar el tiempo productivamente",
+        "75535bc6-bdec-4e4b-a659-4a84330214d4": "Encontrar transporte alternativo",
+        "ae1af9b7-5c59-400c-b0f0-36bae15c721a": "Encontrar alternativas",
+        "b3d18623-3439-4d78-9ef7-6db4bcbfc3d3": "Mantenerse flexible y adaptarse",
+        "c1612a5c-d2ea-48c4-9e34-ebe206bf9f15": "Reservar de nuevo inmediatamente",
+        "e0688820-5aa8-42eb-b2d4-ae3f1f478dc4": "Entrar en pánico"
+      }
+    },
+    "815b47ae-6985-4c9a-9442-c3b2ed556e24": {
+      "name": "Enfoque de la temporada de impuestos",
+      "items": {
+        "0409bbfd-8d6b-4446-ac34-0cff68374f69": "Planificar con antelación para minimizar el estrés",
+        "32906dcc-a581-4969-b05f-3fdb672de1f2": "Contratar a un contable",
+        "4a242616-f30a-498c-b618-e82083e59ae7": "Presentar a última hora",
+        "4b78ed5a-cfec-4878-93e1-fc336d929774": "Olvidarlo",
+        "4c9e2d5a-aa47-4ce4-b4f4-83b99d76fd6b": "Presentar temprano",
+        "9711d134-e0e5-4ca8-a344-8ede87fc3026": "Organizar los documentos durante todo el año",
+        "e05abdeb-7db5-41d5-a021-1886aecb24db": "Usar software"
+      }
+    },
+    "a83501f0-bada-4aba-b3ac-247e192066bb": {
+      "name": "Me quita el sueño",
+      "items": {
+        "39283a0e-da4e-40c3-b037-5a90fe73a00c": "Riesgo de longevidad",
+        "3effbe82-2e54-464d-9544-35a6946a6802": "Seguridad familiar",
+        "543a1bbe-c22a-48f3-b11d-337193c7dfc3": "Volatilidad del mercado",
+        "5a8bed18-1125-418e-8531-0311edc68ffe": "Cambios de vida inesperados",
+        "70ee14df-e267-4f18-9772-235b87ff09d5": "Inflación",
+        "8692a03d-a768-4c27-a1c2-bceb2a985ab0": "Oportunidades perdidas",
+        "c7aac91c-65c9-4375-a0c9-134491bce8ff": "Costos de atención médica"
+      }
+    },
+    "83675866-e519-40ca-8eb4-22652c159689": {
+      "name": "Tu filosofía de crecimiento",
+      "items": {
+        "061b3c82-359a-47f5-bb96-225f256a113a": "Crecimiento Conservador",
+        "0a7e7c82-9335-4848-a5dc-f09773b73be4": "Estable y sostenible",
+        "1c9488eb-3cd1-4bf3-800b-33953e7ff268": "Diversificado",
+        "209c4e68-6b61-4c0d-9fba-3155f5b2230f": "Inversiones Específicas",
+        "33fc2389-805d-4b55-95f8-ff39c43a4bd5": "Disciplina a largo plazo",
+        "4b173fb5-97b5-4e1d-ad1d-0bc39ef0032c": "Oportunista",
+        "aebaa5ff-307f-4298-9d39-97c7cbfcaf4d": "Capitalización"
+      }
+    },
+    "de15c396-f356-4625-a2d3-c384f84a53f9": {
+      "name": "Plan de jubilación ideal",
+      "items": {
+        "1274e104-6158-4023-a682-6633bba5a565": "Jugar al golf todos los días",
+        "1cff1966-8146-40de-bce9-f95e93875df0": "Voluntariado",
+        "83d44712-7499-4902-97c4-81d57b9a50fb": "Viajar por el mundo",
+        "98532574-72c1-4902-9be9-07d217376268": "Comprar una casa en la playa",
+        "ce5808fe-c45c-43ad-b215-40326b93f7c7": "Empezar un proyecto apasionante",
+        "f010e8f2-1dd7-472c-8d4e-98343a012638": "Mezcla flexible de trabajo y ocio",
+        "fabfd8d4-b11e-4511-b891-c2015b1df019": "Tiempo con la familia"
+      }
+    }
+  }
+}

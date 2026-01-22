@@ -1,0 +1,171 @@
+[33m836b0b5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m working-3-save to database
+[33m27e034d[m working-2-dropdown-corrected
+[33m53697a4[m working
+[33m7f0851a[m[33m ([m[1;31morigin/main[m[33m)[m Persist cart to localStorage
+[33m89a2c7d[m Changes
+[33md0526d1[m Migrate PayPal to server side
+[33m4fe7a99[m Changes
+[33m0f5854f[m Fix PayPal SDK load
+[33mf945a17[m Changes
+[33m576293e[m Hardcode PayPal sandbox ID
+[33m8085aca[m Changes
+[33mf312eed[m Fix paypal client id load
+[33m1e6c6e6[m Changes
+[33m0fd88c5[m Fix PayPal load error
+[33m0cc393c[m Changes
+[33md642af9[m Add PayPal checkout flow
+[33md570090[m Changes
+[33me524202[m Add PayPal secrets
+[33m2db4a0d[m Changes
+[33mb5d680d[m Fix topic name fetch
+[33m410a958[m Changes
+[33m6bfd0bc[m Fix topic relation fetch
+[33mdc8349f[m Changes
+[33m188972b[m Enhance authentication flow
+[33m71f85e2[m Fix QR code display issue
+[33mddcc3a8[m Add QR code to lobby
+[33m0b09f62[m Fix join code copying and joining
+[33m04225cd[m Fix mobile like list ordering
+[33m81d8f7b[m Add RLS policies
+[33me7d9aa7[m Add cron job for analytics refresh
+[33mdc21ad7[m Add scheduled materialized view refresh
+[33m1d5f8c7[m Add analytics export and filters
+[33me7fc234[m Add analytics dashboard component
+[33md209f73[m Fix: Apply analytics materialized view
+[33m82aaa45[m Refactor QRCode page
+[33mb69b48e[m Fix image upload RLS policy
+[33m42032b0[m Add QR code page
+[33ma72df24[m Fix foreign key constraint
+[33m1a89342[m Fix: Initialize AI bot score to zero
+[33me0241f1[m Fix: Correct AI bot point calculation
+[33m6694eb6[m Fix AI bot point calculation
+[33m0cb18d6[m feat: Add Capacitor support for mobile
+[33mebc0302[m Fix: Enable delete and edit for org topics and items
+[33m3dfe71c[m feat: Implement organization store item management
+[33mcd19033[m Update login button to handle logout
+[33m7f95fd4[m Fix organization login routing
+[33m7938c6c[m Fix: Add org store items table
+[33m74d118b[m feat: Implement organization-specific pages
+[33m28a56c8[m Add organization logo and font to dashboard
+[33m9206959[m Fix ambiguous column reference
+[33m576b0e5[m Reverted to commit 1f07d385d914b3e057fbc8f8865d67e71740d595
+[33m3c885d5[m Reverted to commit fd6e453fe112be7ca6f8899a486826fb2716c227
+[33m1f07d38[m Fix: Cannot coerce result to JSON
+[33mfd6e453[m Fix VIP selection loading error
+[33m6e62e49[m Fix player_guesses policies for anonymous users
+[33m66d6b80[m Fix RLS policy for player selections
+[33me871465[m Fix anonymous user creation
+[33m5b17a68[m Fix: Player data loading issues
+[33m7afa38f[m Fix: Handle null user ID in TopicSelectionPhase
+[33maacfc9a[m Fix: Update players select policy
+[33md360d75[m Fix: Drop players_user_id_required_for_humans constraint
+[33m2377347[m Fix players table RLS policies
+[33m7023cf5[m Fix: Update RLS policies for players table
+[33m3333207[m Fix: Update RLS policies for game rooms
+[33m5558733[m Fix: RLS policies for anonymous users
+[33m8f1da25[m Fix: Re-enable RLS with permissive policies
+[33mfcea85b[m Fix: Reset RLS policies for game_rooms
+[33me90a0af[m Fix: Reset RLS policies for game_rooms
+[33m796136a[m Fix: Resolve RLS policy errors for game_rooms
+[33m2c445aa[m Fix RLS policy for game rooms
+[33ma09c1ea[m Fix RLS policies for game rooms
+[33mc7b63e5[m Fix RLS policy for game rooms
+[33ma16fda7[m Fix RLS policy recursion
+[33m68bd49d[m Implement anonymous authentication
+[33meeae67f[m Update HowToPlay component image
+[33m18431e5[m Fix: Resolve AI player topic selection error
+[33mfa2d7dd[m Reverted to commit 70d5eb84f6d0d0fade0e7dccaf3e8f16ff361bc3
+[33mced7c6b[m Fix image border in How to Play
+[33m70d5eb8[m Update HowToPlay component image
+[33m9368152[m Fix realtime subscription error
+[33m4bbd1f9[m Add gameplay image to home page
+[33m93e35a4[m Redirect users to dashboard
+[33mda59764[m feat: Implement image upload for store items
+[33md32d6d3[m feat: Allow Super Admin to manage store items
+[33mb968beb[m feat: Create store items page
+[33mb0fa522[m feat: Add store items table and images
+[33m794df31[m Implement Cart page
+[33m3f74955[m Add store page and nav link
+[33m2d5c892[m Approve tool use
+[33m90154d6[m Refactor scoring logic
+[33m91eedd4[m Update "How Knowsy Works" text
+[33meeb8a6e[m Change "30 Points" to "3 Rounds"
+[33m86a7b38[m Update "How to Play" image
+[33m66764fc[m Add image upload for custom items
+[33m4f3481e[m Add image placeholder for topic items
+[33m4ed562a[m Hide "Play Now" button
+[33m6e5e4f9[m Add image support to like list
+[33m71c7e1b[m Fix auto-submit on timer end
+[33mfdc41c8[m Investigate bot scoring issue
+[33m4b5752c[m Add game phase timers
+[33m0361fca[m Update SortableItem for player guessing
+[33m763b064[m Allow reordering list items
+[33m127e390[m Refactor like list selection
+[33m0006bb6[m Add RLS policy for game history
+[33m6db88a2[m feat: Save game to history
+[33mf54cb58[m Fix: Error loading game room
+[33m8b1831b[m Fix: Delete all game data
+[33m93a904b[m Fix missing round results
+[33mca87984[m Fix immediate standings update
+[33maf0ce5d[m Fix: Adjust current standing calculation
+[33m89cd75a[m Refactor header navigation
+[33m7f6a6e3[m Update "Next VIP" button text
+[33mb03987e[m Fix: Handle end of VIPs and start new round
+[33m4dd0a06[m Fix Next VIP button after 1 round
+[33m81cf6b4[m Fix Next VIP button functionality
+[33me18ad2e[m Fix topic selection overflow on mobile
+[33meb7e286[m Fix game page mobile view
+[33mb665188[m Refactor: Adjust play page for mobile
+[33m8a1c6d8[m Fix: Improve mobile navigation bar
+[33m93b0b55[m Fix: QueryClientProvider not wrapping app
+[33m6e8d8c5[m feat: Add multilingual support
+[33m47545ff[m Refactor homepage and remove page
+[33m22a2789[m Move Logout button
+[33ma9967c4[m Fix: Correct storage policies for topic images
+[33m28f6b80[m feat: Allow Super Admin to use AI for topics
+[33ma80dbef[m Add category management for Super Admins
+[33mbbc8037[m feat: Allow Super Admins to manage topics
+[33ma091b6c[m Refactor: Move organization route
+[33mb46374a[m Add option to use Knowsy topics
+[33m7c8c3dc[m feat: Add custom knowsy game pages
+[33mff89f1b[m Reverted to commit 6f4539e09c63ea7ae25be6efa123754ca6ff6136
+[33mbbc22dd[m Fix: Position Play Now button and related nav items
+[33mdaa5ebe[m Reverted to commit 6f4539e09c63ea7ae25be6efa123754ca6ff6136
+[33ma74cc7e[m Align Play Now button to the right
+[33m6f4539e[m Fix: Adjust header to not cover content
+[33mf58d61e[m Add organization branding customization
+[33mfbbc120[m feat: Add image upload for topic items
+[33m53749a0[m Fix RLS policy recursion
+[33m27c1c98[m Visual edit in Lovable
+[33m399eb83[m Fix Auth page font
+[33mae7441c[m Fix secondary font to Roboto
+[33m66a4ad6[m Update secondary font to Roboto
+[33m61c8100[m Implement next steps
+[33m98e37aa[m feat: Implement authentication and roles
+[33m3ccd8db[m Make secondary font bolder
+[33m95a9d70[m Fix custom item visibility
+[33m01a7c04[m Fix player ready status display
+[33m5c2bd7b[m Fix scoring for incorrect guesses
+[33mba12b78[m Fix Supabase real-time setup
+[33m5250c32[m Update secondary font
+[33m5b08488[m Fix: Ensure consistent hook rendering
+[33m5468f00[m Fix final score display
+[33m3acec80[m Fix scoring to add round results
+[33m635ba99[m Fix scoring in current standings
+[33mbffe1b1[m Fix: Actual order not showing
+[33m706ddd7[m Visual edit in Lovable
+[33m5c01a60[m Add custom item selection
+[33m5b7112f[m Visual edit in Lovable
+[33mc1f414d[m Add How it Works and Learn More sections
+[33mbbf2bac[m Refactor scoring logic
+[33mbd33fe9[m Fix AI guessing and UI update
+[33mf218825[m Refactor AI guess function
+[33m08cab65[m Fix AI order and scoring display
+[33m25e85d6[m Fix error loading AI's like list
+[33m969d89d[m Fix empty guess list
+[33md3ce1be[m Fix VIP selection logic
+[33m2c5f495[m Fix player guess relation error
+[33m319ebb3[m Fix AI guessing and player icons
+[33m19518d9[m Fix AI player guessing
+[33mde22ac6[m Fix game stuck on selection
+[33m8086712[m Fix ga
